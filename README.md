@@ -1,7 +1,7 @@
 # ✨ Kurulum
 ### Projeyi botunuzda kullanmak için bazı işlemler yapmanız gerekiyor. Aşağıdaki yönlendirmeleri takip ederek bunu yapabilirsiniz :
 * Herkesin bildiği gibi ilk önce bilgisayarınıza [Node JS](https://nodejs.org/tr/) ve ayarları daha rahat yapa bilmek için bir editör *(Örneğin [Visual Studio Code](https://code.visualstudio.com/))* indirmeniz gerekiyor.
-be.com/) gibi platformlardan ayrıntılı bilgi ala bilirsiniz.
+[Youtube](https://youtube.com/) gibi platformlardan ayrıntılı bilgi ala bilirsiniz.
 * Projeyi zip dosyası halinde indirin ve herhangi bir klasöre zip dosyasını çıkarın.
 * Sonra editörünüzde `./sramtan.json` dosyasına gelerek botunuzun ve sunucunuzun gerekli ayarlarını girin.
 * Daha sonra editörünüzün terminalini yada klasörünuzun bulunduğu dizinde `cmd` veya `powershell` penceresini açın.
