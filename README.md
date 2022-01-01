@@ -20,6 +20,6 @@ be.com/) gibi platformlardan ayrıntılı bilgi ala bilirsiniz.
 # ⚡ İletişim
 ### Eğer bir hatayla karşılaşıyor veya botunuzu kurmakta sorun yaşıyorsanız aşağıdaki bağlantılardan bana ulaşabilirsiniz :
 * [Discord Sunucum](https://discord.gg/bDPGhQAC87)
-* [Ana Hesabım](https://discord.com/users/918933629789405254)
+* [Discord Hesabım](https://discord.com/users/918933629789405254)
 * [YouTube Hesabım](https://www.youtube.com/channel/UCq3MT5nYXJz0tSXbluUsoTA)
 
