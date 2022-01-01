@@ -4,7 +4,7 @@ const { bot_Devs, client_token, guıld_VoiceChannelID, guıld_logChannelID, emoj
 
 // SramtaN tarafından kodlanmıştır.
 client.on("ready", async () => {
-  client.user.setPresence({ activity: {name: "ÖNERİ/ŞİAKYET İÇİN DM!"}, status: bot_status })
+  client.user.setPresence({ activity: {name: "ÖNERİ/ŞİKAYET İÇİN DM!"}, status: bot_status })
   let bot_VoiceChannel = client.channels.cache.get(guıld_VoiceChannelID);
   if (bot_VoiceChannel) bot_VoiceChannel.join().then(c => console.log(`[BOT] Voice connected!`)).catch(err => console.error(`[BOT] Voice can't connected!`));
 });
@@ -44,7 +44,7 @@ client.on("message", async message => {
   let koruma = await client.chatKoruma(message);
   if (message.channel.type === "dm" && (koruma == null || koruma == undefined || koruma == false)) {
     if (oneriler.has(message.author.id)) return;
-    let embed = new Discord.MessageEmbed().setColor("RANDOM").addField(`${emoji_star} Yeni Öneri!`, `${message.content ? message.content.slice(0, 900) : ""}\n\n\`Öneriyi Yapan:\` ${message.author}`);
+    let embed = new Discord.MessageEmbed() .setFooter("Developed By SramtaN").setColor("RANDOM").addField(`${emoji_star} Yeni Öneri!`, `${message.content ? message.content.slice(0, 900) : ""}\n\n\`Öneriyi Yapan:\` ${message.author} - ${message.author.id}`);
     if (message.attachments.first() && message.attachments.first().url) embed.setImage(message.attachments.first().url);
     message.channel.send(`${emoji_tik} ${message.author} Önerin başarıyla iletildi! Bir sonraki önerini **10 dakika** sonra yapabileceksin.`);
     client.channels.cache.get(guıld_logChannelID).send(embed);
