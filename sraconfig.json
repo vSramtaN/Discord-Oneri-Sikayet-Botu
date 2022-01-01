@@ -1,11 +1,11 @@
 
     {
 
-        "bot_Devs": "918933629789405254",
+        "bot_Devs": "KENDİ İD",
         "bot_prefix": ".",
-        "client_token": "OTE1NjI4MjM1NzA5MTIwNTMy.YaeXPg.KpxIXgCs5DEQ6fibD8s7jxvFF8w",
-        "guıld_VoiceChannelID": "924707078570917889",
-        "guıld_logChannelID": "926782533457305670",
+        "client_token": "TOKEN",
+        "guıld_VoiceChannelID": "SES KANAL İD",
+        "guıld_logChannelID": "LOG KANAL İD",
         "bot_status": "dnd",
         "emoji_tik": "<a:green:924707086410080266>",
         "emoji_red": "<a:red:924707102000300032>",
